@@ -28,7 +28,7 @@ jobs:
       # Runs the docker build command from the project root directory
       - name: Build the Docker image
         run: |
-          cd ${{ vars.GITHUB_WORKSPACE }}
+          cd $GITHUB_WORKSPACE
           docker build . -t ${{ vars.DOCKERHUB_USERNAME }}/sample-api:latest
 
       - name: Login to Docker Hub
