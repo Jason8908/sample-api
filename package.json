@@ -1,0 +1,24 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Hello World!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jason8908/sample-api.git"
+  },
+  "author": "Jason Su",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jason8908/sample-api/issues"
+  },
+  "homepage": "https://github.com/Jason8908/sample-api#readme",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
